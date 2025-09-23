@@ -1,0 +1,29 @@
+name: armor
+description: Bulletproof protection for Flutter apps. Automatically handles crashes, errors, and failures with graceful recovery.
+version: 1.0.0
+homepage: https://github.com/iampawan/armor
+repository: https://github.com/iampawan/armor
+issue_tracker: https://github.com/iampawan/armor/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+topics:
+  - error-handling
+  - crash-prevention
+  - resilience
+  - flutter-widgets
+  - error-recovery
